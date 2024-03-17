@@ -6,11 +6,11 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                main: resolve(__dirname, 'Home/Home.html'),
-                shop: resolve(__dirname, 'Shop/Shop.html'),
-                deital: resolve(__dirname, 'Deital/Deital.html'),
-                cart: resolve(__dirname, 'Cart/Cart.html'),
-                checkout: resolve(__dirname, 'CheckOut/CheckOut.html'),
+                main: resolve(__dirname, './Home.html'),
+                shop: resolve(__dirname, './Shop.html'),
+                deital: resolve(__dirname, './Deital.html'),
+                cart: resolve(__dirname, './Cart.html'),
+                checkout: resolve(__dirname, './CheckOut.html'),
             },
         },
     },
