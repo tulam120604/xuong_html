@@ -420,6 +420,14 @@ body {
                     }
 
                     .key_other_infor {
+                        width: 100%;
+
+                        .key1 {
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: 20% 50%;
+                        }
+
                         li {
                             padding-right: 15px;
                         }
